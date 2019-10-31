@@ -8,6 +8,8 @@
     <PackageTags>statuspage.io statuspage atlassian</PackageTags>
     <Description>This API allows .NET clients to read from statuspage.io's public-facing (unauthenticated) API.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>StatusPageIOClient</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
