@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>edwardneal</Authors>
+    <RepositoryUrl>https://github.com/edwardneal/StatusPageClient</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>statuspage.io statuspage atlassian</PackageTags>
+    <Description>This API allows .NET clients to read from statuspage.io's public-facing (unauthenticated) API.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="4.6.0" />
+  </ItemGroup>
+
+</Project>
