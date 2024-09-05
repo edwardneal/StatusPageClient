@@ -10,7 +10,16 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>StatusPageIOClient</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <VersionPrefix>1.0.1</VersionPrefix>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="8.0.4" />

@@ -1,7 +1,7 @@
 # StatusPageClient
 API allowing applications to read from statuspage.io's public-facing API
 
-I've written this largely so that I can read from the SendGrid status API but others also work.
+I've written this largely so that I can read from the SendGrid status API, but others also work.
 
 ## Known Statuspage.io clients
 
